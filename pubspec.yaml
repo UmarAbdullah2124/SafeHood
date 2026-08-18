@@ -1,0 +1,81 @@
+name: untitled
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.5.3
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  webview_flutter: ^4.4.4
+  location: ^5.0.3
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+
+  # Updated Firebase versions to fix Pigeon errors
+  firebase_core: ^3.10.1
+  firebase_auth: ^5.4.4
+  cloud_firestore: ^5.6.2
+  firebase_storage: ^12.4.3
+  firebase_messaging: ^15.2.2
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+
+  http: ^1.1.0
+  flutter_polyline_points: ^2.0.0
+  url_launcher: ^6.2.5
+  permission_handler: ^11.0.1
+  image_picker: ^1.2.2
+
+  geoflutterfire_plus: ^0.0.21
+
+  provider: ^6.1.1
+  uuid: ^4.3.3
+
+  flutter_native_splash: ^2.4.1
+  google_generative_ai: ^0.4.3
+
+  speech_to_text: ^6.6.0
+  flutter_tts: ^4.2.0
+  flutter_local_notifications: ^16.3.0
+  flutter_foreground_task: ^8.17.0
+
+  path_provider: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  rename_app: ^1.6.5
+  flutter_launcher_icons: ^0.14.4
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/icons/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/icons/app_icon6.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "lib/icons/app_icon6.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#000000"
+  image: "lib/icons/app_icon6.png"
+  android: true
+  ios: true
+  web: true
+  android_gravity: center
+  ios_content_mode: center
+  fullscreen: true
